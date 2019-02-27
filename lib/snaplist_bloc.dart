@@ -114,6 +114,7 @@ class SnapListBloc {
     });
 
     _snipUpdateController.stream.listen((event) {
+      print("AKAAAAAAAAAALL");
       _scrollProgress = event.progress;
       _scrollOffset = event.snip;
 
